@@ -4,5 +4,6 @@ return [
     'plugins' => [
         'MultipleLocalAuth',
         'Analytics',
+        'AdminLoginAsUser',
     ]
 ];
