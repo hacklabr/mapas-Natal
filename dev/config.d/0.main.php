@@ -6,6 +6,8 @@ return [
     'app.verifiedSealsIds' => '1',
     'cep.token' => '',
     
+    'themes.active' => 'MapasNatal',
+    
     'slim.debug' => true,
 
     'app.mode' => $_ENV['APP_MODE'],
