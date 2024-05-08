@@ -20,7 +20,7 @@ services:
       - ./config.d:/var/www/config/local.d
 
       # themes and plugins
-      - ../plugins/SamplePlugin:/var/www/src/plugins/SamplePlugin
+      - ../themes/MapasNatal:/var/www/src/themes/MapasNatal
       - ../plugins/MultipleLocalAuth:/var/www/src/plugins/MultipleLocalAuth
 
     environment:
