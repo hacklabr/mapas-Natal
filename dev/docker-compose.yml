@@ -22,6 +22,9 @@ services:
       # themes and plugins
       - ../themes/MapasNatal:/var/www/src/themes/MapasNatal
       - ../plugins/MultipleLocalAuth:/var/www/src/plugins/MultipleLocalAuth
+      - ../plugins/Analytics:/var/www/src/plugins/Analytics
+      - ../plugins/AdminLoginAsUser:/var/www/src/plugins/AdminLoginAsUser
+      - ../plugins/MapasBlame:/var/www/src/plugins/MapasBlame
 
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
