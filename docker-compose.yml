@@ -9,7 +9,7 @@ services:
       - ./docker-data/public-files:/var/www/html/files
       - ./docker-data/assets:/var/www/html/assets
 
-  ##### versão sem ssl
+  ##### versão sem ssl (Neste caso usando o certificado da ATI de natal)
       - ./docker/production/nginx.conf:/etc/nginx/conf.d/default.conf
 
   ##### versão com ssl
