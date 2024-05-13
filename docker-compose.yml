@@ -48,6 +48,7 @@ services:
     environment:
       - REDIS_CACHE=redis
       - SESSIONS_SAVE_PATH=tcp://sessions:6379
+      - STATUS_CREATE_AGENT=1
 
     depends_on:
       - db
