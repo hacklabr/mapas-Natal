@@ -1,3 +1,4 @@
 #!/bin/bash
 
-docker compose restart
+./stop.sh
+./start.sh
