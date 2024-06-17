@@ -3,7 +3,7 @@
 use \MapasCulturais\i;
 
 return [
-    "text:home-header.title" => i::__("Bem-vind@!"),
+    "text:home-header.title" => i::__("Boas vindas ao Mapa Cultural de Natal"),
     "text:home-header.description" => i::__("O Mapa Cultural de Natal é uma plataforma livre, colaborativa e interativa de mapeamento do cenário cultural natalense, além de ser um instrumento de governança digital no aprimoramento da gestão pública, dos mecanismos de participação e da democratização do acesso às políticas culturais promovidas no município de Natal. É a partir dela que é garantida a estruturação de Sistemas de Informações e Indicadores culturais."),
     "text:home-opportunities.description" => i::__("É aqui que você pode realizar inscrições e acessar o resultado de editais e oportunidades como oficinas, prêmios e concursos. Você também pode criar o seu próprio formulário e divulgar sua oportunidade para outros agentes culturais."),
     "text:home-entities.events" => i::__("Quer saber quais os eventos culturais que estão ocorrendo em sua região? Basta fazer uma pesquisa a partir das ferramentas de busca. Além disso, como usuário cadastrado, você pode incluir seus eventos na plataforma e divulgá-los gratuitamente!"),
