@@ -4,6 +4,7 @@ return [
     'plugins' => [
         'MultipleLocalAuth',
         'Analytics',
+        'SpamDetector',
         'AdminLoginAsUser',
         'MapasBlame' => [
             'namespace' => 'MapasBlame',
