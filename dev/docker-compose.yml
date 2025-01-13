@@ -25,6 +25,7 @@ services:
       - ../plugins/Analytics:/var/www/src/plugins/Analytics
       - ../plugins/AdminLoginAsUser:/var/www/src/plugins/AdminLoginAsUser
       - ../plugins/MapasBlame:/var/www/src/plugins/MapasBlame
+      - ../plugins/SpamDetector:/var/www/src/plugins/SpamDetector
 
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
@@ -32,6 +33,8 @@ services:
       - REDIS_CACHE=redis
       - APP_MODE=development
       - BUILD_ASSETS=1
+      - MAILER_TRANSPORT=smtp://mailhog:1025
+      - MAILER_FROM=sysadmin@localhost
 
     depends_on:
       - db
