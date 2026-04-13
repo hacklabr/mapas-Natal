@@ -35,6 +35,7 @@ services:
       - BUILD_ASSETS=1
       - MAILER_TRANSPORT=smtp://mailhog:1025
       - MAILER_FROM=sysadmin@localhost
+      - SESSIONS_SAVE_PATH=tcp://sessions:6379
 
     depends_on:
       - db
@@ -48,6 +49,13 @@ services:
   redis:
     image: redis:6
     command: --maxmemory 256Mb --maxmemory-policy allkeys-lru
+  
+  sessions:
+    image: redis:6
+    command: --maxmemory 384Mb --maxmemory-policy allkeys-lru
+    restart: unless-stopped
+    volumes:
+      - ./docker-data/sessions:/data
 
   db:
     image: postgis/postgis:14-master
