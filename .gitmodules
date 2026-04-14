@@ -15,4 +15,4 @@
 	url = https://github.com/mapasculturais/plugin-SpamDetector.git
 [submodule "plugins/Zammad"]
 	path = plugins/Zammad
-	url = git@github.com:mapasculturais/plugin-Zammad.git
+	url = https://github.com/mapasculturais/plugin-Zammad.git
