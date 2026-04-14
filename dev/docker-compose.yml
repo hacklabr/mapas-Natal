@@ -26,6 +26,7 @@ services:
       - ../plugins/AdminLoginAsUser:/var/www/src/plugins/AdminLoginAsUser
       - ../plugins/MapasBlame:/var/www/src/plugins/MapasBlame
       - ../plugins/SpamDetector:/var/www/src/plugins/SpamDetector
+      - ../plugins/Zammad:/var/www/src/plugins/Zammad
 
     environment:
       - PENDING_PCACHE_RECREATION_INTERVAL=10
