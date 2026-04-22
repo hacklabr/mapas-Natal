@@ -7,7 +7,6 @@ WORKDIR /var/www/src
 RUN pnpm install --recursive && pnpm run build 
 WORKDIR /var/www
 
-
 COPY docker/common/config.d /var/www/config/common.d
 COPY docker/production/config.d /var/www/config/config.d
 # COPY docker/common/timezone.ini /usr/local/etc/php/conf.d/timezone.ini
