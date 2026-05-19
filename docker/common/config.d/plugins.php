@@ -3,6 +3,7 @@
 return [
     'plugins' => [
         'MultipleLocalAuth',
+        'ValuersManagement',
         'Analytics',
         'SpamDetector',
         'AdminLoginAsUser',

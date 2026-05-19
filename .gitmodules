@@ -16,3 +16,6 @@
 [submodule "plugins/Zammad"]
 	path = plugins/Zammad
 	url = https://github.com/mapasculturais/plugin-Zammad.git
+[submodule "plugins/ValuersManagement"]
+	path = plugins/ValuersManagement
+	url = git@github.com:mapasculturais/plugin-ValuersManagement.git
